@@ -1,7 +1,7 @@
-微信/QQ群爬虫
+网页下拉列表的爬虫
 ===
 
-一个基于Python和Selenium Webdriver的爬虫，负责获得一个用户所拥有的群的全部信息（人数/名单）。
+一个基于Python和Selenium Webdriver的爬虫，负责获得网页的下拉列表选项框的数据。
 
 
 安装方式：
@@ -13,19 +13,6 @@
 ** 解压chromedriver.exe到Python的安装目录下，如C:\Python27。 
 ** 添加C:\Users\Administrator\AppData\Local\Google\Chrome\Application\（chrome安装路径，这里是win7下的安装路径）到环境变量path 
 
-
-注意事项：
----
-
-* 如果出现字符串混乱，请取消文件中下面的注释
-
-<pre>
-<code>
-#import sys
-#reload(sys)
-#sys.setdefaultencoding('utf-8')
-</code>
-</pre>
 
 Contributers:
 ---
